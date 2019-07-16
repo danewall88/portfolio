@@ -9,13 +9,11 @@ a {
 
 .btn-primary {
   background-color: $primary !important;
-  border-color: $primary !important;
   color: $white !important;
   &:hover,
   &:focus,
   &:active {
     background-color: darken($primary, 10%) !important;
-    border-color: darken($primary, 10%) !important;
   }
 }
 

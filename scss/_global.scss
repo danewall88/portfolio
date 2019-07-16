@@ -3,12 +3,7 @@ html {
   width: 100%;
   height: 100%;
 }
-.h-100 {
-  height:60vh !important;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-}
+
 body {
   @include body-font;
 }
@@ -17,6 +12,7 @@ body {
     width:100%;
   }
 }
+
 
 // Custom Button Size
 .btn-xl {
